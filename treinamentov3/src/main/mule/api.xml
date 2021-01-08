@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mule xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd 
-http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
-http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd  http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
     <http:listener-config name="api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
-    <apikit:config name="api-config" api="resource::469bd822-a377-4843-b6f8-f8337b89c87b:treinamento-completo-raml:1.0.0:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
-    <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="c28b31bd-f6ec-4b28-8569-47678028dcd8" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<http:request-config name="HTTP_Request_configuration1" doc:name="HTTP Request configuration" doc:id="74e9f4e6-ec0c-4130-bf0a-75cd8bffbc6d" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<http:request-config name="HTTP_Request_configuration2" doc:name="HTTP Request configuration" doc:id="7a38360c-0aba-458a-88b4-5d07c136c52f" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<http:request-config name="HTTP_Request_configuration3" doc:name="HTTP Request configuration" doc:id="05b2e2b7-6032-48ce-9472-8248e5060e35" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<http:request-config name="HTTP_Request_configuration4" doc:name="HTTP Request configuration" doc:id="b911d4a3-daaf-40ab-8741-e75949aa096a" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<http:request-config name="HTTP_Request_configuration5" doc:name="HTTP Request configuration" doc:id="12994299-7a45-4d89-973f-b03663d82684" >
-		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
-	</http:request-config>
-	<flow name="api-main">
+    <apikit:config name="api-config" api="resource::469bd822-a377-4843-b6f8-f8337b89c87b:treinamento-completo-raml:1.0.3:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="c28b31bd-f6ec-4b28-8569-47678028dcd8">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration1" doc:name="HTTP Request configuration" doc:id="74e9f4e6-ec0c-4130-bf0a-75cd8bffbc6d">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration2" doc:name="HTTP Request configuration" doc:id="7a38360c-0aba-458a-88b4-5d07c136c52f">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration3" doc:name="HTTP Request configuration" doc:id="05b2e2b7-6032-48ce-9472-8248e5060e35">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration4" doc:name="HTTP Request configuration" doc:id="b911d4a3-daaf-40ab-8741-e75949aa096a">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration5" doc:name="HTTP Request configuration" doc:id="12994299-7a45-4d89-973f-b03663d82684">
+        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+    </http:request-config>
+    <flow name="api-main">
         <http:listener config-ref="api-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
                 <http:headers>#[vars.outboundHeaders default {}]</http:headers>
@@ -37,7 +35,7 @@ http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mu
         <apikit:router config-ref="api-config" />
         <error-handler>
             <on-error-propagate type="APIKIT:BAD_REQUEST">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -50,7 +48,7 @@ output application/json
                 </ee:transform>
             </on-error-propagate>
             <on-error-propagate type="APIKIT:NOT_FOUND">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -63,7 +61,7 @@ output application/json
                 </ee:transform>
             </on-error-propagate>
             <on-error-propagate type="APIKIT:METHOD_NOT_ALLOWED">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -76,7 +74,7 @@ output application/json
                 </ee:transform>
             </on-error-propagate>
             <on-error-propagate type="APIKIT:NOT_ACCEPTABLE">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -89,7 +87,7 @@ output application/json
                 </ee:transform>
             </on-error-propagate>
             <on-error-propagate type="APIKIT:UNSUPPORTED_MEDIA_TYPE">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -102,7 +100,7 @@ output application/json
                 </ee:transform>
             </on-error-propagate>
             <on-error-propagate type="APIKIT:NOT_IMPLEMENTED">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -129,7 +127,7 @@ output application/json
         <apikit:console config-ref="api-config" />
         <error-handler>
             <on-error-propagate type="APIKIT:NOT_FOUND">
-                <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+                <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
                     <ee:message>
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -143,40 +141,57 @@ output application/json
             </on-error-propagate>
         </error-handler>
     </flow>
-	<flow name="delete:\delete\clothes:api-config">
-		<http:request method="DELETE" doc:name="Request" doc:id="b7a6aa05-68e9-4006-8767-c237256fe8ca" config-ref="HTTP_Request_configuration3" path="/delete/clothes">
-			<http:headers ><![CDATA[#[output application/java
+    <flow name="delete:\delete\clothes:api-config">
+        <http:request method="DELETE" doc:name="Request" doc:id="b7a6aa05-68e9-4006-8767-c237256fe8ca" config-ref="HTTP_Request_configuration3" path="/delete/clothes">
+            <http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-			<http:query-params ><![CDATA[#[output application/java
+            <http:query-params><![CDATA[#[output application/java
 ---
 {
 	id : message.attributes.queryParams.id
 }]]]></http:query-params>
-		</http:request>
+        </http:request>
     </flow>
     <flow name="get:\query\allClothes:api-config">
-		<http:request method="GET" doc:name="Request" doc:id="6a8f32b2-9439-4cea-b241-51c334e2fa6d" config-ref="HTTP_Request_configuration" path="/query/allClothes">
-			<http:headers ><![CDATA[#[output application/java
+        <http:request method="GET" doc:name="Request" doc:id="6a8f32b2-9439-4cea-b241-51c334e2fa6d" config-ref="HTTP_Request_configuration" path="/query/allClothes">
+            <http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-		</http:request>
-		<logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" />
+        </http:request>
+        <logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" />
     </flow>
-	<flow name="get:\query\clothes:api-config">
-		<set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="6bcb668b-3c63-4cc0-85b1-c731bd72b154" variableName="consultaVar" />
-		<flow-ref doc:name="Flow Reference" doc:id="8388c847-b34a-46a7-97d1-2a73bf07e846" name="choiceTestSubFlow"/>
+    <flow name="get:\query\clothes:api-config">
+        <set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="c4bc4371-24f5-43d8-80c6-6dcc6c157800" variableName="TesteDaVariavel"/>
+		<flow-ref doc:name="Flow Reference" doc:id="8388c847-b34a-46a7-97d1-2a73bf07e846" name="consultaDoisParamentros" />
     </flow>
-	<sub-flow name="choiceTestSubFlow" doc:id="ed8f2ead-2112-4e46-85d7-a2c57a4f3e1a" >
-		<choice doc:name="Choice" doc:id="144143fe-ac88-4d0f-a965-25147bec120e">
-			<when expression='#[vars.consultaVar != null]'>
-				<http:request method="GET" doc:name="Busca por parametro Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+    <sub-flow name="consultaDoisParamentros" doc:id="91208e63-76ca-467c-a0c0-2d4a9cc51646">
+        <scatter-gather doc:name="Scatter-Gather" doc:id="2858a5d3-23bb-4214-8d00-47b9bcfa5b6d" >
+			<route >
+				<set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="6bcb668b-3c63-4cc0-85b1-c731bd72b154" variableName="camisa1" />
+				<http:request method="GET" doc:name="Busca por parametro Request V1" doc:id="eefa7e54-bd74-43d8-9214-0958756516e3" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+            <http:headers><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+            <http:query-params><![CDATA[#[output application/java
+---
+{
+	"nome" : "Camisa do Hulk"
+}]]]></http:query-params>
+        </http:request>
+			</route>
+			<route >
+				<set-variable value="#[message.attributes.queryParams.name2]" doc:name="Set Variable" doc:id="93804df0-5a3c-4bbf-a222-20f91775a964" variableName="camisa2" />
+				<http:request method="GET" doc:name="Busca por parametro Request V2" doc:id="2048cc52-6382-4b73-be51-0b4676c790b9" config-ref="HTTP_Request_configuration5" path="/query/clothes">
 			<http:headers><![CDATA[#[output application/java
 ---
 {
@@ -189,41 +204,71 @@ output application/json
 	"nome" : "Camisa do Hulk"
 }]]]></http:query-params>
 		</http:request>
-			</when>
-			<otherwise>
-				<logger level="INFO" doc:name="Logger" doc:id="c35bae2f-79a3-4f1a-8c55-75c88a460f59" />
-				<ee:transform doc:name="Transform Message" doc:id="8e321580-2f83-48e1-a000-dc501950cd15" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-message: "O parameter id precisa ser preenchido"]]></ee:set-payload>
-					</ee:message>
-				</ee:transform>
-			</otherwise>
-		</choice>
-		<ee:transform doc:name="Transform Message" doc:id="1cd7f8b7-6e8d-4e72-a7c3-901c053a5ed4" >
+			</route>
+		</scatter-gather>
+		<ee:transform doc:name="Transform Message" doc:id="a5aa209b-ac82-477f-ba6a-767eaadd13d4" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-message: "Secesso!"]]></ee:set-payload>
+{
+	mensagem: "vars.camisa1 ++ vars.camis"
+}]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-	</sub-flow>
-	<flow name="get:\status:api-config">
-		<http:request method="GET" doc:name="Request" doc:id="13129ece-f759-4be1-ac92-bd076248b3c6" config-ref="HTTP_Request_configuration4" path="status">
-			<http:headers ><![CDATA[#[output application/java
+    </sub-flow>
+    <sub-flow name="choiceTestSubFlow" doc:id="ed8f2ead-2112-4e46-85d7-a2c57a4f3e1a">
+        <choice doc:name="Choice" doc:id="144143fe-ac88-4d0f-a965-25147bec120e">
+            <when expression="#[vars.camisa1 != null]">
+                <http:request method="GET" doc:name="Busca por parametro Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+					<http:headers ><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-		</http:request>
+					<http:query-params ><![CDATA[#[output application/java
+---
+{
+	"name" : "Camisa do Hulk",
+	"name2" : "Camisa do Homen Aranha"
+}]]]></http:query-params>
+                </http:request>
+            </when>
+            <otherwise>
+                <logger level="INFO" doc:name="Logger" doc:id="c35bae2f-79a3-4f1a-8c55-75c88a460f59" />
+                <ee:transform doc:name="Transform Message" doc:id="8e321580-2f83-48e1-a000-dc501950cd15">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+message: "O parameter id precisa ser preenchido"]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </otherwise>
+        </choice>
+		<ee:transform doc:name="Transform Message" doc:id="1cd7f8b7-6e8d-4e72-a7c3-901c053a5ed4">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+message: "Secesso!"]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+    </sub-flow>
+    <flow name="get:\status:api-config">
+        <http:request method="GET" doc:name="Request" doc:id="13129ece-f759-4be1-ac92-bd076248b3c6" config-ref="HTTP_Request_configuration4" path="status">
+            <http:headers><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+        </http:request>
     </flow>
     <flow name="post:\create\clothes:application\json:api-config">
-		<http:request method="POST" doc:name="Request" doc:id="598e8492-5e71-44fb-bf24-a54a7d068996" config-ref="HTTP_Request_configuration1" path="/create/clothes">
-			<http:body ><![CDATA[#[{
+        <http:request method="POST" doc:name="Request" doc:id="598e8492-5e71-44fb-bf24-a54a7d068996" config-ref="HTTP_Request_configuration1" path="/create/clothes">
+            <http:body><![CDATA[#[{
     "id":"7d8b0707e3db",
     "name": "Camisa da Mulher Maeda",
     "marca": "DC",
@@ -234,17 +279,17 @@ message: "Secesso!"]]></ee:set-payload>
     "preco": 63.5,
     "outrasCores": false
   }]]]></http:body>
-			<http:headers ><![CDATA[#[output application/java
+            <http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-		</http:request>
+        </http:request>
     </flow>
     <flow name="post:\update\clothes:application\json:api-config">
-		<http:request method="PATCH" doc:name="Request" doc:id="f4db642e-30ce-4f79-907d-6211e1eb87f6" config-ref="HTTP_Request_configuration2" path="/update/clothes">
-			<http:body ><![CDATA[#[{
+        <http:request method="PATCH" doc:name="Request" doc:id="f4db642e-30ce-4f79-907d-6211e1eb87f6" config-ref="HTTP_Request_configuration2" path="/update/clothes">
+            <http:body><![CDATA[#[{
 "id":"1232141414",
 "name": "Camisa do Capitão America",
 "marca": "Calvin Klein",              
@@ -255,12 +300,12 @@ message: "Secesso!"]]></ee:set-payload>
 "preco": 23.50,                     
 "outrasCores": true
 }]]]></http:body>
-			<http:headers ><![CDATA[#[output application/java
+            <http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-		</http:request>
+        </http:request>
     </flow>
 </mule>
