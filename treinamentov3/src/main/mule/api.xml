@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mule xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd ">
+<mule xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd 
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
     <http:listener-config name="api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
@@ -167,22 +169,49 @@ output application/json
 		</http:request>
 		<logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" />
     </flow>
-    <flow name="get:\query\clothes:api-config">
-		<http:request method="GET" doc:name="Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
-			<http:headers ><![CDATA[#[output application/java
+	<flow name="get:\query\clothes:api-config">
+		<set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="6bcb668b-3c63-4cc0-85b1-c731bd72b154" variableName="consultaVar" />
+		<flow-ref doc:name="Flow Reference" doc:id="8388c847-b34a-46a7-97d1-2a73bf07e846" name="choiceTestSubFlow"/>
+    </flow>
+	<sub-flow name="choiceTestSubFlow" doc:id="ed8f2ead-2112-4e46-85d7-a2c57a4f3e1a" >
+		<choice doc:name="Choice" doc:id="144143fe-ac88-4d0f-a965-25147bec120e">
+			<when expression='#[vars.consultaVar != null]'>
+				<http:request method="GET" doc:name="Busca por parametro Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+			<http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-			<http:query-params ><![CDATA[#[output application/java
+			<http:query-params><![CDATA[#[output application/java
 ---
 {
 	"nome" : "Camisa do Hulk"
 }]]]></http:query-params>
 		</http:request>
-    </flow>
-    <flow name="get:\status:api-config">
+			</when>
+			<otherwise>
+				<logger level="INFO" doc:name="Logger" doc:id="c35bae2f-79a3-4f1a-8c55-75c88a460f59" />
+				<ee:transform doc:name="Transform Message" doc:id="8e321580-2f83-48e1-a000-dc501950cd15" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+message: "O parameter id precisa ser preenchido"]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</otherwise>
+		</choice>
+		<ee:transform doc:name="Transform Message" doc:id="1cd7f8b7-6e8d-4e72-a7c3-901c053a5ed4" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+message: "Secesso!"]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</sub-flow>
+	<flow name="get:\status:api-config">
 		<http:request method="GET" doc:name="Request" doc:id="13129ece-f759-4be1-ac92-bd076248b3c6" config-ref="HTTP_Request_configuration4" path="status">
 			<http:headers ><![CDATA[#[output application/java
 ---
