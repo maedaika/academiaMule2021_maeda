@@ -7,6 +7,21 @@
     <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="c28b31bd-f6ec-4b28-8569-47678028dcd8" >
 		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
 	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration1" doc:name="HTTP Request configuration" doc:id="74e9f4e6-ec0c-4130-bf0a-75cd8bffbc6d" >
+		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration2" doc:name="HTTP Request configuration" doc:id="7a38360c-0aba-458a-88b4-5d07c136c52f" >
+		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration3" doc:name="HTTP Request configuration" doc:id="05b2e2b7-6032-48ce-9472-8248e5060e35" >
+		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration4" doc:name="HTTP Request configuration" doc:id="b911d4a3-daaf-40ab-8741-e75949aa096a" >
+		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration5" doc:name="HTTP Request configuration" doc:id="12994299-7a45-4d89-973f-b03663d82684" >
+		<http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+	</http:request-config>
 	<flow name="api-main">
         <http:listener config-ref="api-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
@@ -126,18 +141,20 @@ output application/json
             </on-error-propagate>
         </error-handler>
     </flow>
-    <flow name="delete:\delete\clothes:api-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-            <ee:message>
-                <ee:set-payload><![CDATA[%dw 2.0
-output application/json
+	<flow name="delete:\delete\clothes:api-config">
+		<http:request method="DELETE" doc:name="Request" doc:id="b7a6aa05-68e9-4006-8767-c237256fe8ca" config-ref="HTTP_Request_configuration3" path="/delete/clothes">
+			<http:headers ><![CDATA[#[output application/java
 ---
 {
-  success: true,
-  message: "Sucesso"
-}]]></ee:set-payload>
-            </ee:message>
-        </ee:transform>
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+			<http:query-params ><![CDATA[#[output application/java
+---
+{
+	id : message.attributes.queryParams.id
+}]]]></http:query-params>
+		</http:request>
     </flow>
     <flow name="get:\query\allClothes:api-config">
 		<http:request method="GET" doc:name="Request" doc:id="6a8f32b2-9439-4cea-b241-51c334e2fa6d" config-ref="HTTP_Request_configuration" path="/query/allClothes">
@@ -151,67 +168,70 @@ output application/json
 		<logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" />
     </flow>
     <flow name="get:\query\clothes:api-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-            <ee:message>
-                <ee:set-payload><![CDATA[%dw 2.0
-output application/json
+		<http:request method="GET" doc:name="Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+			<http:headers ><![CDATA[#[output application/java
 ---
 {
-  id: "bad5536cdf",
-  name: "Camisa do Homem de Ferro",
-  marca: "Calvin Klein",
-  cor: "Amarela",
-  tamanho: "G",
-  dataEfetivado: "15/12/2020",
-  quantidade: 200,
-  preco: 33.5,
-  outrasCores: false
-}]]></ee:set-payload>
-            </ee:message>
-        </ee:transform>
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+			<http:query-params ><![CDATA[#[output application/java
+---
+{
+	"nome" : "Camisa do Hulk"
+}]]]></http:query-params>
+		</http:request>
     </flow>
     <flow name="get:\status:api-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-            <ee:message>
-                <ee:set-payload><![CDATA[%dw 2.0
-output application/json
+		<http:request method="GET" doc:name="Request" doc:id="13129ece-f759-4be1-ac92-bd076248b3c6" config-ref="HTTP_Request_configuration4" path="status">
+			<http:headers ><![CDATA[#[output application/java
 ---
 {
-  title: "Mulesoft Academia 2021",
-  version: "1.0",
-  requestTime: "2020-05-26T19:11:48.455Z"
-}]]></ee:set-payload>
-            </ee:message>
-        </ee:transform>
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+		</http:request>
     </flow>
     <flow name="post:\create\clothes:application\json:api-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-            <ee:message>
-                <ee:set-payload><![CDATA[%dw 2.0
-output application/json
----
-[
-  {
-    id: "0930a12a3125",
-    success: true,
-    message: null
-  }
-]]]></ee:set-payload>
-            </ee:message>
-        </ee:transform>
-    </flow>
-    <flow name="post:\update\clothes:application\json:api-config">
-        <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-            <ee:message>
-                <ee:set-payload><![CDATA[%dw 2.0
-output application/json
+		<http:request method="POST" doc:name="Request" doc:id="598e8492-5e71-44fb-bf24-a54a7d068996" config-ref="HTTP_Request_configuration1" path="/create/clothes">
+			<http:body ><![CDATA[#[{
+    "id":"7d8b0707e3db",
+    "name": "Camisa da Mulher Maeda",
+    "marca": "DC",
+    "cor": "Azul",
+    "tamanho": "P",
+    "dataEfetivado": "15/12/2020",
+    "quantidade": 200,
+    "preco": 63.5,
+    "outrasCores": false
+  }]]]></http:body>
+			<http:headers ><![CDATA[#[output application/java
 ---
 {
-  id: "0930a12a3125",
-  success: true,
-  message: null
-}]]></ee:set-payload>
-            </ee:message>
-        </ee:transform>
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+		</http:request>
+    </flow>
+    <flow name="post:\update\clothes:application\json:api-config">
+		<http:request method="PATCH" doc:name="Request" doc:id="f4db642e-30ce-4f79-907d-6211e1eb87f6" config-ref="HTTP_Request_configuration2" path="/update/clothes">
+			<http:body ><![CDATA[#[{
+"id":"1232141414",
+"name": "Camisa do Capitão America",
+"marca": "Calvin Klein",              
+"cor": "Vermelho",  
+"tamanho": "P",                    
+"dataEfetivado": "15/12/2020",      
+"quantidade": 200,        
+"preco": 23.50,                     
+"outrasCores": true
+}]]]></http:body>
+			<http:headers ><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+		</http:request>
     </flow>
 </mule>
