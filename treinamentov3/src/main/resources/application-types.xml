@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="imput" format="xml">
+      <types:example format="xml" element="IDOC" location="exemplos/exempo-input-xml.xml"/>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#34c53e4e-1913-4dd3-b574-060ea9d95aa0">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="imput"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>

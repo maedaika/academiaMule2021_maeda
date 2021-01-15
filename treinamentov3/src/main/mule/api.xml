@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd  http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
+<mule xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/mule-apikit http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd  http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
     <http:listener-config name="api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
-    <apikit:config name="api-config" api="resource::469bd822-a377-4843-b6f8-f8337b89c87b:treinamento-completo-raml:1.0.3:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <apikit:config name="api-config" api="resource::469bd822-a377-4843-b6f8-f8337b89c87b:treinamento-completo-raml:1.0.9:raml:zip:api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
     <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="c28b31bd-f6ec-4b28-8569-47678028dcd8">
         <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
     </http:request-config>
     <http:request-config name="HTTP_Request_configuration1" doc:name="HTTP Request configuration" doc:id="74e9f4e6-ec0c-4130-bf0a-75cd8bffbc6d">
-        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+        <http:request-connection host="localhost" port="83"/>
     </http:request-config>
     <http:request-config name="HTTP_Request_configuration2" doc:name="HTTP Request configuration" doc:id="7a38360c-0aba-458a-88b4-5d07c136c52f">
         <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
     </http:request-config>
     <http:request-config name="HTTP_Request_configuration3" doc:name="HTTP Request configuration" doc:id="05b2e2b7-6032-48ce-9472-8248e5060e35">
-        <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
+        <http:request-connection host="localhost" port="83"/>
     </http:request-config>
     <http:request-config name="HTTP_Request_configuration4" doc:name="HTTP Request configuration" doc:id="b911d4a3-daaf-40ab-8741-e75949aa096a">
         <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
@@ -22,7 +23,16 @@
     <http:request-config name="HTTP_Request_configuration5" doc:name="HTTP Request configuration" doc:id="12994299-7a45-4d89-973f-b03663d82684">
         <http:request-connection host="academia-system-api.us-e1.cloudhub.io" />
     </http:request-config>
-    <flow name="api-main">
+    <http:request-config name="HTTP_Request_configuration6" doc:name="HTTP Request configuration" doc:id="5c1f18ec-adcc-468b-911f-b842acfc126e">
+        <http:request-connection host="localhost" port="83" />
+    </http:request-config>
+    <http:request-config name="HTTP_Request_configuration7" doc:name="HTTP Request configuration" doc:id="de730091-90c3-47fc-990f-8831cf455580" >
+		<http:request-connection host="localhost" port="83" />
+	</http:request-config>
+	<db:config name="Database_Config" doc:name="Database Config" doc:id="f2399d68-3d76-4d68-9d85-db66697de1fa" >
+		<db:my-sql-connection host="localhost" port="3306" user="root" password="root" />
+	</db:config>
+	<flow name="api-main">
         <http:listener config-ref="api-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
                 <http:headers>#[vars.outboundHeaders default {}]</http:headers>
@@ -40,10 +50,10 @@
                         <ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-{message: "Bad request"}]]></ee:set-payload>
+{message: "Bad request " ++ " "++ "ou  Verifiquei os parametros e valores"}]]></ee:set-payload>
                     </ee:message>
                     <ee:variables>
-                        <ee:set-variable variableName="httpStatus">400</ee:set-variable>
+                        <ee:set-variable variableName="httpStatus"><![CDATA[400]]></ee:set-variable>
                     </ee:variables>
                 </ee:transform>
             </on-error-propagate>
@@ -142,92 +152,104 @@ output application/json
         </error-handler>
     </flow>
     <flow name="delete:\delete\clothes:api-config">
-        <http:request method="DELETE" doc:name="Request" doc:id="b7a6aa05-68e9-4006-8767-c237256fe8ca" config-ref="HTTP_Request_configuration3" path="/delete/clothes">
-            <http:headers><![CDATA[#[output application/java
----
-{
-	"client_secret" : 123124214,
-	"client_id" : 22424242
-}]]]></http:headers>
-            <http:query-params><![CDATA[#[output application/java
----
-{
-	id : message.attributes.queryParams.id
-}]]]></http:query-params>
+        <http:listener doc:name="Listener" doc:id="b5b9b435-1511-4f12-90c5-db519c4e008f" config-ref="api-httpListenerConfig" path="/deletaTodos"/>
+		<logger level="INFO" doc:name="Logger" doc:id="5d16e1e5-5362-4f6e-b8b6-cecfc35b6db5" message="Inicio do metodo delete todos"/>
+		<http:request method="DELETE" doc:name="Request" doc:id="b7a6aa05-68e9-4006-8767-c237256fe8ca" config-ref="HTTP_Request_configuration3" path="/api/treinamento/v1/cliente/delete/todas">
         </http:request>
-    </flow>
-    <flow name="get:\query\allClothes:api-config">
-        <http:request method="GET" doc:name="Request" doc:id="6a8f32b2-9439-4cea-b241-51c334e2fa6d" config-ref="HTTP_Request_configuration" path="/query/allClothes">
-            <http:headers><![CDATA[#[output application/java
----
-{
-	"client_secret" : 123124214,
-	"client_id" : 22424242
-}]]]></http:headers>
-        </http:request>
-        <logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" />
-    </flow>
-    <flow name="get:\query\clothes:api-config">
-        <set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="c4bc4371-24f5-43d8-80c6-6dcc6c157800" variableName="TesteDaVariavel"/>
-		<flow-ref doc:name="Flow Reference" doc:id="8388c847-b34a-46a7-97d1-2a73bf07e846" name="consultaDoisParamentros" />
-    </flow>
-    <sub-flow name="consultaDoisParamentros" doc:id="91208e63-76ca-467c-a0c0-2d4a9cc51646">
-        <scatter-gather doc:name="Scatter-Gather" doc:id="2858a5d3-23bb-4214-8d00-47b9bcfa5b6d" >
-			<route >
-				<set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="6bcb668b-3c63-4cc0-85b1-c731bd72b154" variableName="camisa1" />
-				<http:request method="GET" doc:name="Busca por parametro Request V1" doc:id="eefa7e54-bd74-43d8-9214-0958756516e3" config-ref="HTTP_Request_configuration5" path="/query/clothes">
-            <http:headers><![CDATA[#[output application/java
----
-{
-	"client_secret" : 123124214,
-	"client_id" : 22424242
-}]]]></http:headers>
-            <http:query-params><![CDATA[#[output application/java
----
-{
-	"nome" : "Camisa do Hulk"
-}]]]></http:query-params>
-        </http:request>
-			</route>
-			<route >
-				<set-variable value="#[message.attributes.queryParams.name2]" doc:name="Set Variable" doc:id="93804df0-5a3c-4bbf-a222-20f91775a964" variableName="camisa2" />
-				<http:request method="GET" doc:name="Busca por parametro Request V2" doc:id="2048cc52-6382-4b73-be51-0b4676c790b9" config-ref="HTTP_Request_configuration5" path="/query/clothes">
-			<http:headers><![CDATA[#[output application/java
----
-{
-	"client_secret" : 123124214,
-	"client_id" : 22424242
-}]]]></http:headers>
-			<http:query-params><![CDATA[#[output application/java
----
-{
-	"nome" : "Camisa do Hulk"
-}]]]></http:query-params>
-		</http:request>
-			</route>
-		</scatter-gather>
-		<ee:transform doc:name="Transform Message" doc:id="a5aa209b-ac82-477f-ba6a-767eaadd13d4" >
+		<ee:transform doc:name="Transform Message" doc:id="62f03ef2-c6a6-4dda-9483-ce6044548314" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
+output application/java
 ---
 {
-	mensagem: "vars.camisa1 ++ vars.camis"
+	mensage: payload
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="7fc958e8-3f5d-4234-83b9-1487384bd3d5" message='#[payload]'/>
+		<error-handler>
+			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="67a13ef0-ca39-425c-bfcd-bf068a194256" type="ANY"/>
+		</error-handler>
+    </flow>
+	<flow name="get:\query\allClothes:api-config">
+        <logger level="INFO" doc:name="Logger" doc:id="4f1ff720-b777-48fa-826f-be18ead1fc72" message="Inicio da  consultar all "/>
+		<http:request method="GET" doc:name="Request" doc:id="6a8f32b2-9439-4cea-b241-51c334e2fa6d" config-ref="HTTP_Request_configuration" path="/query/allClothes">
+            <http:headers><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+        </http:request>
+        <logger level="INFO" doc:name="Logger" doc:id="16fc7fda-1bea-4136-b0b2-c13e247b9e06" message='#[payload]'/>
+    </flow>
+    <flow name="get:\query\clothes:api-config">
+        <set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="c4bc4371-24f5-43d8-80c6-6dcc6c157800" variableName="TesteDaVariavel" />
+        <flow-ref doc:name="Flow Reference" doc:id="8388c847-b34a-46a7-97d1-2a73bf07e846" name="consultaDoisParamentros" />
+        <error-handler>
+            <on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="020e1e8d-03f4-447e-b4b6-0ffa8e0dde1d" >
+				<flow-ref doc:name="Flow Reference" doc:id="95ba7bd0-f56f-4c9f-bc45-59b151e2307d" name="get:\query\allClothes:api-config"/>
+			</on-error-propagate>
+        </error-handler>
+    </flow>
+    <sub-flow name="consultaDoisParamentros" doc:id="91208e63-76ca-467c-a0c0-2d4a9cc51646">
+        <scatter-gather doc:name="Scatter-Gather" doc:id="2858a5d3-23bb-4214-8d00-47b9bcfa5b6d">
+            <route>
+                <set-variable value="#[message.attributes.queryParams.name]" doc:name="Set Variable" doc:id="6bcb668b-3c63-4cc0-85b1-c731bd72b154" variableName="camisa1" />
+                <http:request method="GET" doc:name="Busca por parametro Request V1" doc:id="eefa7e54-bd74-43d8-9214-0958756516e3" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+                    <http:headers><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+                    <http:query-params><![CDATA[#[output application/java
+---
+{
+	"nome" : "Camisa do Hulk"
+
+}]]]></http:query-params>
+                </http:request>
+            </route>
+            <route>
+                <set-variable value="#[message.attributes.queryParams.name2]" doc:name="Set Variable" doc:id="93804df0-5a3c-4bbf-a222-20f91775a964" variableName="camisa2" />
+                <http:request method="GET" doc:name="Busca por parametro Request V2" doc:id="2048cc52-6382-4b73-be51-0b4676c790b9" config-ref="HTTP_Request_configuration5" path="/query/clothes">
+                    <http:headers><![CDATA[#[output application/java
+---
+{
+	"client_secret" : 123124214,
+	"client_id" : 22424242
+}]]]></http:headers>
+                    <http:query-params><![CDATA[#[output application/java
+---
+{
+	"nome" : "Camisa do Hulk"
+}]]]></http:query-params>
+                </http:request>
+            </route>
+        </scatter-gather>
+        <ee:transform doc:name="Transform Message" doc:id="a5aa209b-ac82-477f-ba6a-767eaadd13d4">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+{
+	mensagem: [vars.camisa1] ++ [vars.camisa2]
+}]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
     </sub-flow>
     <sub-flow name="choiceTestSubFlow" doc:id="ed8f2ead-2112-4e46-85d7-a2c57a4f3e1a">
         <choice doc:name="Choice" doc:id="144143fe-ac88-4d0f-a965-25147bec120e">
             <when expression="#[vars.camisa1 != null]">
                 <http:request method="GET" doc:name="Busca por parametro Request" doc:id="fc6a9696-f60b-4fc1-9e7c-8513aff48791" config-ref="HTTP_Request_configuration5" path="/query/clothes">
-					<http:headers ><![CDATA[#[output application/java
+                    <http:headers><![CDATA[#[output application/java
 ---
 {
 	"client_secret" : 123124214,
 	"client_id" : 22424242
 }]]]></http:headers>
-					<http:query-params ><![CDATA[#[output application/java
+                    <http:query-params><![CDATA[#[output application/java
 ---
 {
 	"name" : "Camisa do Hulk",
@@ -247,7 +269,7 @@ message: "O parameter id precisa ser preenchido"]]></ee:set-payload>
                 </ee:transform>
             </otherwise>
         </choice>
-		<ee:transform doc:name="Transform Message" doc:id="1cd7f8b7-6e8d-4e72-a7c3-901c053a5ed4">
+        <ee:transform doc:name="Transform Message" doc:id="1cd7f8b7-6e8d-4e72-a7c3-901c053a5ed4">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
@@ -257,17 +279,38 @@ message: "Secesso!"]]></ee:set-payload>
         </ee:transform>
     </sub-flow>
     <flow name="get:\status:api-config">
-        <http:request method="GET" doc:name="Request" doc:id="13129ece-f759-4be1-ac92-bd076248b3c6" config-ref="HTTP_Request_configuration4" path="status">
-            <http:headers><![CDATA[#[output application/java
+        <http:listener doc:name="Listener" doc:id="fcbd8c57-5b4d-4f34-963b-db3d4c343b36" config-ref="api-httpListenerConfig" path="/listaTodasConsultaBase"/>
+		<logger level="INFO" doc:name="Logger" doc:id="4b3f3218-aade-407e-98c7-ce919f7f75b6" message="inicio consulta base"/>
+		<db:select doc:name="Select" doc:id="0d93b142-22de-4c0f-828d-1d1eb973f52d" config-ref="Database_Config">
+			<db:sql ><![CDATA[select * from  livraria.livros]]></db:sql>
+		</db:select>
+		<ee:transform doc:name="Transform Message" doc:id="ad3fa977-068e-4882-97d4-119cdfbb3545" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
 ---
 {
-	"client_secret" : 123124214,
-	"client_id" : 22424242
-}]]]></http:headers>
-        </http:request>
+	message: payload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="8352b5c3-ab6b-4b1a-8e74-fb081e443d67" message="saiu do select"/>
+		<ee:transform doc:name="Transform Message" doc:id="79e5978c-4cf3-4d28-8f49-0b1de25c57a7" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	mensagemdorequest: payload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="03e84eef-4f88-4d09-ae51-83d62be8c297" message="Fim da cadeia de teste STATUS(conexao e request)"/>
     </flow>
-    <flow name="post:\create\clothes:application\json:api-config">
-        <http:request method="POST" doc:name="Request" doc:id="598e8492-5e71-44fb-bf24-a54a7d068996" config-ref="HTTP_Request_configuration1" path="/create/clothes">
+	<flow name="post:\create\clothes:application\json:api-config">
+        <http:listener doc:name="Listener" doc:id="250ba396-2f31-44b8-9c64-e1ca98e23332" config-ref="api-httpListenerConfig" path="/LerGravaEmJava"/>
+		<logger level="INFO" doc:name="Logger" doc:id="de8096d2-0b92-4b56-b40b-d8a4b538ed25" message="Inicio do metodo create"/>
+		<http:request method="POST" doc:name="Request" doc:id="598e8492-5e71-44fb-bf24-a54a7d068996" config-ref="HTTP_Request_configuration1" path="/api/treinamento/v1/cliente/lerArquivo">
             <http:body><![CDATA[#[{
     "id":"7d8b0707e3db",
     "name": "Camisa da Mulher Maeda",
@@ -286,9 +329,12 @@ message: "Secesso!"]]></ee:set-payload>
 	"client_id" : 22424242
 }]]]></http:headers>
         </http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="48c04aeb-b24a-461c-b256-ecbf96c4759d" />
     </flow>
     <flow name="post:\update\clothes:application\json:api-config">
-        <http:request method="PATCH" doc:name="Request" doc:id="f4db642e-30ce-4f79-907d-6211e1eb87f6" config-ref="HTTP_Request_configuration2" path="/update/clothes">
+        <http:listener doc:name="Listener" doc:id="9ffc896d-0ae3-452f-abc8-3574fc2eeccb" config-ref="api-httpListenerConfig" path="/updateClother"/>
+		<logger level="INFO" doc:name="Logger" doc:id="a82c31ca-b5f7-4971-adf3-770352806873" message="Inicio do metodo Update "/>
+		<http:request method="PATCH" doc:name="Request" doc:id="f4db642e-30ce-4f79-907d-6211e1eb87f6" config-ref="HTTP_Request_configuration2" path="/update/clothes">
             <http:body><![CDATA[#[{
 "id":"1232141414",
 "name": "Camisa do Capitão America",
@@ -307,5 +353,34 @@ message: "Secesso!"]]></ee:set-payload>
 	"client_id" : 22424242
 }]]]></http:headers>
         </http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="930393f9-1c82-4f34-8d60-2cfff2eab5b1" />
+    </flow>
+    <flow name="get:\query\conslParamClothes:api-config">
+        <http:listener doc:name="Listener" doc:id="7a592d90-a158-416d-810c-c6d0e76cefe3" config-ref="api-httpListenerConfig" path="/testeIntegracao"/>
+		<http:request method="GET" doc:name="Request - Java" doc:id="bb94b264-4965-43c9-85b3-0cac5c5655dc" config-ref="HTTP_Request_configuration6" path="/api/treinamento/v1/cliente/busca/todas" />
+        <ee:transform xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+{
+  id: "bad5536cdf",
+  name: "Maeda treinamento",
+  marca: "Calvin Klein",
+  cor: "Amarela",
+  tamanho: "G",
+  dataEfetivado: "15/12/2020",
+  quantidade: 200,
+  preco: 33.5,
+  outrasCores: false
+}]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="af65c16f-464d-45c8-b59b-5ea60f1729e2" />
+    </flow>
+    <flow name="get:\query\consulJava:api-config">
+        <http:listener doc:name="Listener" doc:id="31c15af6-7468-4a59-a366-b98fc6d2f9ad" config-ref="api-httpListenerConfig" path="/listaTodas"/>
+		<http:request method="GET" doc:name="Request" doc:id="d2d854a8-93a6-4bfc-9aa7-ffdc9286c162" config-ref="HTTP_Request_configuration7" path="/api/treinamento/v1/cliente/busca/todas"/>
+		<logger level="INFO" doc:name="Logger" doc:id="5902bf12-40d3-4247-831d-767a485a67c3" message="#[payload]"/>
     </flow>
 </mule>

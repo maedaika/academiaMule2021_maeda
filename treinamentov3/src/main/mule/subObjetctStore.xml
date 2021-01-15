@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:os="http://www.mulesoft.org/schema/mule/os"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+	<sub-flow name="subObjetctStoreSub_Flow" doc:id="c1e0eb70-bfbb-4005-b652-b1a9a9541d0b" >
+		<os:retrieve-all doc:name="Retrieve all" doc:id="c6dd58a9-31ff-4e76-a3ea-8a98920aa358" objectStore="Object_store"/>
+		<logger level="INFO" doc:name="Logger" doc:id="eb2573ab-43a6-4f1c-aa62-deb033c25a8c" message="#[payload]"/>
+		<file:write doc:name="Write" doc:id="a6d6a420-e24d-4651-bd28-8349b0919e84" path="C:\Users\alessandro.maeda\git\repository\treinamentov3\src\main\resources\exemplos\resultadoObjectStore.txt.txt" mode="CREATE_NEW"/>
+	</sub-flow>
+</mule>

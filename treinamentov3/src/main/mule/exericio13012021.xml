@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:os="http://www.mulesoft.org/schema/mule/os" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd">
+	<os:object-store name="Object_store" doc:name="Object store" doc:id="33fbdf32-861a-49c8-81e4-19f0ccbefb9c" />
+	<flow name="exericio13012021Flow" doc:id="74f8e20f-0777-4713-bd2b-4f1c6460e792" >
+		<scheduler doc:name="Scheduler" doc:id="fc76bc13-0b67-4e8b-ba34-70d9c36d7f91" >
+			<scheduling-strategy >
+				<fixed-frequency timeUnit="DAYS" frequency="100" startDelay="1000"/>
+			</scheduling-strategy>
+		</scheduler>
+		<flow-ref doc:name="Flow Reference" doc:id="bdffc2ee-74c6-46b6-9209-681296479e93" name="get:\query\allClothes:api-config"/>
+		<ee:transform doc:name="Transform Message" doc:id="36384441-b033-4c10-b3f5-19afad94afda" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	teste: payload
+}]]></ee:set-payload>
+			</ee:message>
+			<ee:variables >
+				<ee:set-variable variableName="desc10" ><![CDATA[%dw 2.0
+output application/json
+fun dateFormat(data) = data as String {format: "DD-MM-YYYY"}
+fun dateFormat2(data) = data as String {format: "DD/MM/YYYY"}
+---
+
+payload filter ($.quantidade >= 0) and ($.quantidade <= 300)  map (item, index) -> {
+	nome         : item.nome,
+	cor          : item.cor,
+	tamanho      : item.tamanho,
+	dataEfetivado: (now() as Date) as String {		format: "DD/MM/YYYY"	},
+	quantidade   : item.quantidade,
+	preco        : item.preco,
+	outrasCores  : item.outrasCores,
+	Desconto     : item.quantidade *0.9
+	
+}
+]]></ee:set-variable>
+				<ee:set-variable variableName="desc15" ><![CDATA[%dw 2.0
+output application/json
+fun dateFormat(data) = data as String {format: "DD-MM-YYYY"}
+fun dateFormat2(data) = data as String {format: "DD/MM/YYYY"}
+---
+
+payload filter ($.quantidade >= 0) and ($.quantidade <= 300) 
+  map (item, index) -> {
+	nome         : item.nome,
+	cor          : item.cor,
+	tamanho      : item.tamanho,
+	dataEfetivado: (now() as Date) as String {		format: "DD/MM/YYYY"	},
+	quantidade   : item.quantidade,
+	preco        : item.preco,
+	outrasCores  : item.outrasCores,
+	Desconto     : item.quantidade *0.85
+	
+}
+]]></ee:set-variable>
+				<ee:set-variable variableName="desc20" ><![CDATA[%dw 2.0
+output application/json
+fun dateFormat(data) = data as String {format: "DD-MM-YYYY"}
+fun dateFormat2(data) = data as String {format: "DD/MM/YYYY"}
+---
+
+payload filter ($.quantidade >= 0) and ($.quantidade <= 300) 
+  map (item, index) -> {
+	nome         : item.nome,
+	cor          : item.cor,
+	tamanho      : item.tamanho,
+	dataEfetivado: (now() as Date) as String {		format: "DD/MM/YYYY"	},
+	quantidade   : item.quantidade,
+	preco        : item.preco,
+	outrasCores  : item.outrasCores,
+	Desconto     : item.preco *0.80
+	
+}
+]]></ee:set-variable>
+			</ee:variables>
+		</ee:transform>
+		<os:store doc:name="Store" doc:id="6138c61f-2339-4cc6-80d9-eccbfdf64bb8" key="desconto15" objectStore="Object_store">
+			<os:value ><![CDATA[#[vars.desc15]]]></os:value>
+		</os:store>
+		<foreach doc:name="For Each" doc:id="c1759b7f-d6cd-4143-878e-175bd53dfac1" >
+			<file:write doc:name="Write" doc:id="992b8b58-d552-4e64-9911-92eaf98fcc6b" path="C:\Users\alessandro.maeda\git\repository\treinamentov3\src\main\resources\exemplos\desc15.txt">
+			<file:content><![CDATA[#[vars.desc15]]]></file:content>
+		</file:write>
+			<file:write doc:name="Write" doc:id="79db0e3a-b8fa-42bb-949b-e7ab3c4529d5" path="C:\Users\alessandro.maeda\git\repository\treinamentov3\src\main\resources\exemplos\desc10.txt.txt">
+				<file:content ><![CDATA[#[vars.desc10]]]></file:content>
+			</file:write>
+			<file:write doc:name="Write" doc:id="215f4708-6cf3-4d59-abff-2b24af6b21de" path="C:\Users\alessandro.maeda\git\repository\treinamentov3\src\main\resources\exemplos\desc20.txt.txt">
+				<file:content ><![CDATA[#[vars.desc20]]]></file:content>
+			</file:write>
+		</foreach>
+		<flow-ref doc:name="Flow Reference" doc:id="1ee3a1a7-608c-4781-b9ba-69fc1b852299" name="subObjetctStoreSub_Flow" />
+		<error-handler >
+			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="fdf1858b-8815-454d-a5a4-faa6bb636285"/>
+		</error-handler>
+	</flow>
+</mule>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="api-test-suite.xml" />
+	<munit:test name="api-test-suite-get:\query\allClothes:api-configTest" doc:id="a8a62b7a-8c33-4142-8af1-8d39647dca35" description="Test">
+		<munit:behavior >
+			<munit-tools:spy doc:name="Spy" doc:id="304c6f99-96cd-4927-a2c1-47fd04065033" processor="flow-ref">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="8388c847-b34a-46a7-97d1-2a73bf07e846" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:spy>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\query\allClothes:api-config" doc:id="99697cfe-b8e5-47b6-b3c6-ca1b8d7c5a29" name="get:\query\allClothes:api-config"/>
+		</munit:execution>
+	</munit:test>
+	<munit:test name="api-test-suite-get:\query\clothes:api-configTest" doc:id="2205a687-0a31-4669-bd93-4d17e458e85f" description="Test">
+		<munit:behavior >
+			<munit-tools:spy doc:name="Spy" doc:id="1ef82763-c9ec-491c-82d9-c62bd31dbc5e" processor="on-error-propagate">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="020e1e8d-03f4-447e-b4b6-0ffa8e0dde1d" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:spy>
+			<munit:set-null-payload doc:name="Set null payload" doc:id="edb719b4-6b7a-4a4a-9d7e-dc566b1c8c00" />
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\query\clothes:api-config" doc:id="963c7faa-5b43-4962-b1e0-d8423fd1d393" name="get:\query\clothes:api-config"/>
+		</munit:execution>
+	</munit:test>
+	<munit:test name="api-test-suite-get:\query\clothes:api-configTest1" doc:id="450906ab-d05a-4c6d-9303-a5ed1764bdfd" description="Test">
+		<munit:behavior>
+			<munit-tools:spy doc:name="Spy" doc:id="6a5ea43f-94e4-497f-8de6-a8bbad09024f" processor="flow-ref">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="8388c847-b34a-46a7-97d1-2a73bf07e846" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:spy>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\query\clothes:api-config" doc:id="cfb68aed-c9dd-45ae-a2c6-8de44cf31e57" name="get:\query\clothes:api-config"/>
+		</munit:execution>
+	</munit:test>
+	<munit:test name="api-test-suite-choiceTestSubFlowTest" doc:id="56514998-614b-4874-a5bb-04cb07e9259b" description="Test">
+		<munit:behavior >
+			<munit-tools:spy doc:name="Spy" doc:id="64ca3428-ae4e-440e-96b1-a18ed6d6c730" processor="http:request">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="fc6a9696-f60b-4fc1-9e7c-8513aff48791" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:spy>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to choiceTestSubFlow" doc:id="aa250415-9dae-4623-93db-cc612b6f4c4f" name="choiceTestSubFlow"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>
