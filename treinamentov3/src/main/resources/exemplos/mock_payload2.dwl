@@ -7,12 +7,6 @@
   },
   {
     "DEX_Opportunity_Related__c": "0061x00000JlSJOAA3",
-    "Id": "a8Z1x0000008RLyEAM",
-    "DEX_Wholesaler_Related__c": "0011x000015vgQoAAI",
-    "type": "DEX_Opportunity_Wholesaler_Assignment__c"
-  },
-  {
-    "DEX_Opportunity_Related__c": "0061x00000JlSJOAA3",
     "Id": "a8Z1x0000008RLzEAM",
     "DEX_Wholesaler_Related__c": "0011x000015vgQvAAI",
     "type": "DEX_Opportunity_Wholesaler_Assignment__c"
