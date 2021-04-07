@@ -1,0 +1,1602 @@
+[
+  {
+    "IntegrationPayload__c": "2F86F6EC-E1A1-4242-849D-F84C265A9ECB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "F30A853F-3586-4502-A6BD-06FD5BE5ACA3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2C30FF05-1045-495C-972F-B9948DC6822D",
+    "Exception_Message__c": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C56367A3-0C38-4A83-9821-DAFC90EC56DF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DAF654E3-2E9F-4913-AB31-D888B00981DE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "EDC39994-F625-4E21-A846-C3337ECBCC2D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "D7C8BDC5-CEB4-4E83-AF9A-C918DF2C4F3E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9B7C151D-FFF5-48ED-B746-BC522C095BF7",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "1DC3A530-A9C9-46F7-BE9D-98BDB45C9041",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "50AF4A23-F208-44AE-AF81-1E5123640943",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FAEBA8CF-2E4B-439E-AE2C-F1B2AEBC6D0F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "D2EDD67A-43FA-4BE8-B2B7-74312E938E3F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "F67DB8A0-2FC4-41D5-B5F9-C35BDA5AA08E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "110E6BFF-6AC2-4D76-A87E-95011DC456ED",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "89650407-9149-4BAA-B7DF-F0B76943D380",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "76917241-DE5C-4359-8F42-9955686EBE59",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "BBC16D63-3DCE-4092-88F7-36381DF5689B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "EB9D9FDE-CAE1-4F30-847B-67ACAE840CB9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0DFBB2BA-4D13-440A-90D0-D5A2B05350F0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FC8F7E7B-3B32-4544-9FA8-4CE79B6DD600",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "B0F6CC89-51B7-4DD1-9330-36A5CF9013D9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "06FE9BAA-2BF6-48D7-BE1E-9EF1746E9D48",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A40D0D79-6EB5-4731-8C49-67A37ADC95FC",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FCBCE7A4-1056-41C3-9A40-C062B613CD6F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C3EFD230-BDD2-4102-9529-05C00A687D63",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9CF4980D-8B50-4DF8-8F0C-7D8C7A71C58C",
+    "Exception_Message__c": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0C889ECA-1436-4E0F-B99F-E81BDEF6604F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "F19D736F-CA1E-47AB-82BE-DC204B618698",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "1DF0F232-76FF-489E-8959-FF11445B491F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CB36122A-8065-4DA5-9DC8-DF4CACDD2032",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "4786C661-5689-421F-87DB-074ECF2D0661",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "93EAB6F4-DD9F-419E-8407-BED254BF5212",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "6815360E-F316-4C2C-BF26-74C3644DE435",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "AD16C667-0357-4741-881A-A553081020EE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2C30FF05-1045-495C-972F-B9948DC6822D",
+    "Exception_Message__c": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9292B588-3B3F-4B09-B6DC-F23F67C3D46F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5CC973FA-1FD7-4942-A9BA-7D57A00E82D3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "572F6221-FB51-4186-9820-2B58643748E4",
+    "Exception_Message__c": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5BDFB36B-D85F-42B5-B904-F723DD5F83C2",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "10860275-8818-4563-A352-2AB108990A42",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "8BDC32FB-D4FC-4C6D-9A52-DF2FFA32A34F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "E24F81D6-52A4-4AF4-81C7-5DEBA5478310",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2F4B7B40-95DF-4CFE-805F-32CA3FCA535E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5E8B6071-DF75-42B1-BD10-A75B4A16E272",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "516FBCC5-F82A-4554-94E4-B2F309598DDB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9338DA24-079E-4E15-B6CB-C6886F2711FA",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "E5D1DB44-B2CE-463F-BC0B-DAA1ECEA4429",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "30AC84D6-597D-4C34-A7B6-EE6DED5EC43B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "52CDA96E-AD51-4F56-A087-CC355C2A271F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CD4D1154-64A2-4B72-BBFE-26D25CD126DB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A1FDC8DC-B9D2-4D09-A408-76965EDD5CAF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CE0E797B-D807-4E2F-9E89-90CDF066F291",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "754CC187-9331-4334-82E3-1BFA54C61A5E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2FAE2597-DFC4-47EA-8C45-6F04B6D41BD3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0C0E9FEB-2508-4638-A6D9-5695D8A46619",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "049BBD59-540F-4B16-8C34-63A789C15822",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "705BBE65-232D-47AB-9B5F-5187C4B4E2C2",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9D03CC72-F53C-4F47-9858-D76273127617",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "92B86859-D193-4097-9439-F4FEF11720F3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C54BEB3E-8650-4001-A3BB-0F1FD0F7167E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DDD539F2-D6AD-46CD-A1CB-7B412D4AC57F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A4A90FDD-1EF3-4A41-84A4-561C21BB5A3B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "198A085C-6707-43A6-918C-12E91B084ADF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "3F518DD9-CD7C-436B-A9D7-07A1C41EE82D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A19A48CE-F5D6-4B14-BED4-3E956D04A272",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "73528BBE-E0D0-40C8-A805-68D23BF7C1B0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2809AC45-AC20-4DE5-A6D9-0915395AF08A",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C7852AC7-366C-467B-BEB5-F059B1071370",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "357EF96A-C2ED-42A6-B169-1C1166D187C4",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0D12C877-11DB-42AF-8C7C-4D5DB1399FCF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5B12CB75-C038-49B1-8C65-20974BA69215",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "3F3D790D-301F-4CEB-828D-E5C72326BD73",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C6FD7500-0C86-4CBE-BD3E-17E46C76083D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "3FE3ABEC-F40A-4925-9009-653FFFC98F6A",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "379565B9-1EBE-4429-BC36-124E45DE4096",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "05581164-38FE-449C-AE61-15C98B9AD002",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "679F642F-21EA-4342-A28E-8650DFAEF9A6",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FCFE7662-56D8-47D7-9338-196296F136F1",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "28E3DD02-4594-4ABC-B71A-3C90E82F2BD0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "E239A135-95C2-45F6-9E2C-D57E8F3BB967",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "7EEF351A-80C0-4AB5-8053-53E436ED7C71",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9BFD3070-02A2-49FD-B737-8EDC7D657A7B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "97089A52-482A-408C-8980-784D38311749",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FA52E1B3-0160-49E4-A0EB-47D51CBA51FB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "55AE364F-5AD0-401C-9FAD-6FCF97AE779E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "26877157-3735-4A68-8F86-735D65F2FC8A",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "88A67130-3E69-4583-BDF6-4AB2752A6443",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CE54693B-326C-486E-9024-54CB66DFE4EF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "4C100C71-9C71-4AE4-9116-6BFC02FA3C5C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "1B7917FE-176B-4D14-9350-ED8FE4CD359F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9C6FAA66-2589-4EF4-8F89-39118145DB88",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "33B60BDA-39BA-4405-BAF5-704BBAEC887D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "BFF10925-B960-4C7A-A1EC-0B813E13B89E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C07B9CA3-4F89-4289-A466-29E76C08CFAB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "7CA36569-34CD-404C-9AD6-8FFB18364A7D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "6896299F-531A-430B-A08E-0CA09F32B7DD",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CF195841-D247-4865-A5C2-693C93787484",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DF2C3C28-C96D-4583-BD1C-D53D68066B24",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9CF4980D-8B50-4DF8-8F0C-7D8C7A71C58C",
+    "Exception_Message__c": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "060435AE-6A26-4F3A-9156-23465D9DA201",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "B42BC85C-7B45-41A6-9C4C-B43839343B68",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "AED8F54B-5F2F-439E-9B4D-090F5217359B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2324FBCC-B840-4423-852E-E3E6164BEBB3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "D4D0AFF6-231B-4954-B384-81A241260650",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "68CDD1BD-1477-4C0A-9F22-0B477EC4436F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "051256DB-D2CF-42F6-8A39-358BCC4DFD1E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "20D3B38D-4285-4824-A15F-CCDCFC31F7AB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "441C538C-F00C-4CE2-824F-1DE50B3D856F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "3CD79A00-6616-4B3E-AB0D-ECF6CF584206",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "4F0BE5DC-8518-44BF-961E-921C3ED58EC9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "16C2AF1E-C8DE-4013-AA50-A4BB16E09644",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9A97C32B-8C48-45A7-A6DD-A619BC8E621C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9688C6CE-DF49-444F-8618-3D5C28DA4778",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5DC7C369-9A9F-46D3-BB6E-CC153EE87B40",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "88D1A78B-3C20-41B2-9C8E-8B687DA0D9CB",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "7E78FE67-014A-4D3E-9B1D-BBE8D68E3166",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2CA6168F-1DBC-4BA6-90AE-6AE67049BD1B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0C51A080-8597-45C5-A29D-F4EA44F005EE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DA0C375B-66D5-4CBA-958C-5C906E00CAB6",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CC7B8883-4AC7-42A0-BA30-C1BA84658A8F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "80243A98-0077-47AE-91A3-CE06F4AD92C5",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9A0C409B-DF96-49B8-B903-8E0D65365E92",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "23D74D90-9160-4011-8857-D7A8469A0298",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5CBF6529-0489-4860-B892-2DEFB0777F6F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9A6E5AF5-DC39-4423-B94F-7A64DE2793D8",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "781FB595-8D9E-44B9-9454-8D183744ECAA",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "BA543271-BCD8-42BF-B248-DD46B5A41AF3",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "25ACE8CB-0BDB-4EF4-88A8-3C81D8BE6F4B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "13F37865-E3C8-4453-B1DF-A13F9B7CD6B9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "7834AA27-73EB-401D-B165-6DDD344013F6",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "AA17CD51-846A-48EB-9651-3C87519A564E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "D7B70FB0-AA24-4D85-B6DF-DFB788733956",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "09ADDDFF-100A-4223-93FC-0D4CC070EF50",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "ACABBB6A-7C79-41A5-A485-4E3F0F5D487B",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A2E3A24B-EC45-4275-8AC7-8A3E77DEF2BF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DC427B18-5E53-45B4-B41E-ACC859850436",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "6FF1AA2C-0A88-4583-8E8E-FE0F42FE2529",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2F91C0C3-6A7C-4B6C-B448-3168671560E8",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "EF0A55C6-D795-4164-9D57-9427424170DE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "8F81E079-3A58-4CBC-9B5F-F03ACA2460D1",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "ED894184-FA9E-4E88-A7BE-26664C77A28D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "E615956F-3FE5-44F0-84B6-F9F8623AFFA9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "56370603-151A-4F7B-B2D0-F986BE5F6CA5",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "772F1917-456B-4339-A610-79666C75B381",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A4DDD51B-A962-48FF-9BBF-6CF56DAE135C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "572F6221-FB51-4186-9820-2B58643748E4",
+    "Exception_Message__c": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "0D907B0D-6E3C-4882-BD94-349CB93A31D9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2F0BE617-A53B-4AF4-922A-E7E0C435B6BC",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "00ACDB60-1633-40CA-A332-A679408F478A",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "B0DF8717-95AD-48B2-AC22-009C908FCB8E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "07C4203A-8E07-40B9-AF87-A886FCBC7757",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "C252B961-9362-4CE7-8B3E-18DDA1477A5C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "908865A4-94FF-44B3-B44D-475A293D94AE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5069AA2D-7B58-464B-AABF-B1C8D2F5C792",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "6244DE99-D7C5-4C74-ABB9-F6D8AC14F431",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "D5532590-E698-434A-890A-4907958AFB1D",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FB756364-5A89-4881-9EC5-4464A074F5B0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "87BCF2E7-E762-4792-B62D-CC67833F2ADA",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "EEB8B234-B596-48CE-8C46-D7E8B4CD7CDC",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "B7808A45-DFE4-4ED8-B4FC-798E516EDBF8",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "345CD331-EDA0-4F71-81B1-809068A77BA0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "73A344D7-57EC-4151-AF75-13B590D4E199",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "88A2870C-3924-49A1-BFD4-3B78ACA55E24",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "F71CB9AB-B10F-4D50-856B-E9FF03D3E1FD",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A01162C6-DB9E-400D-9145-299FAD97E25E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "BADDBA53-F627-488B-BB93-69171AEFB4D1",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5FCC5A1C-8B8A-4DBF-AB25-4764AB60B2A7",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CD61A3BD-FBAC-4BB9-9436-7C9350FC47AF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CD55D9E3-F32B-4A9B-80B3-7649917F5E7F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "9C13F2D3-0BE5-4CF0-AA0E-0EF6B212C193",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "F381E0F5-2EE9-424C-B0CF-C3D429299DFE",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FCA54DE1-9B35-46B5-8FF7-E67295ECB3E6",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "48EF0412-74A2-40A4-B25B-74A29E8F28D4",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CB50072F-200E-41E2-8C95-FF5C9804DE90",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2A9C42B1-0559-483E-8636-5D18F11357E6",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "CDF6FD9A-172E-4657-8A70-C691FACCBED1",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "4D22F735-D819-4D3B-A1CA-EB77D45CE63A",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "68442FFE-10E1-47FC-B6AD-94D214C74848",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "EFC715EC-FF09-489B-B03D-F5F225201F4F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "B077F50E-98E6-44E5-8F6F-20668CA2E250",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "E7DC41A3-ADCC-4C98-AAB9-8491EADBA26E",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "06835B7C-6E00-4CFB-96CC-C2F617B97CBF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "3AF5C7F9-73E0-403D-A124-8975DC85A6F7",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "479DBFDD-FF26-4CE3-BBBC-136930397AD5",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "38141B67-10C5-4C1F-AFCC-4FDF66D53B0C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "41996B94-7320-493A-9901-99B64F5AF208",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "BBBFE79D-C8B5-4F0B-A73C-65E8BFACD685",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "5388794A-2775-450D-906E-61795B2DB57F",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "1A756CA5-37BB-4979-82FD-0866EF2534C0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "22E76C56-147E-4DA3-8873-5EC06C6FC2B9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "FDD04028-7007-45FB-8162-D42544CDF8F9",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "8E0E9B85-37CC-4CFD-8F25-1862C37882D0",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "832A515F-F9DF-430E-8567-887AAFDC5821",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "415F3D5A-EC2C-4319-98C3-39E4F5127D3C",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "20B32944-330A-40ED-855B-ED69129F1B75",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "2FD11A8C-AB7A-4031-9557-81DA5F7B44FF",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "DAD848BC-20EC-4B6E-94AA-B2D3905EF823",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "29B6D98B-DA4B-4F01-82AE-B18F8792D431",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "1F2F11E6-C3AE-4F76-814B-DFCBAAD5C6B2",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  },
+  {
+    "IntegrationPayload__c": "A1898E35-4C9D-4009-8CDB-D1B2331F0753",
+    "Exception_Message__c": "invalid record type",
+    "Name": "Datalake Inbound Error",
+    "DebugLevel__c": "Error",
+    "Application_Name__c": "AFH",
+    "ReferenceInfo__c": "AFH_SALESFORCE_SSD_20210401141391_001853eb-0166-4e46-ae73-4e1937cdadd6.csv"
+  }
+]

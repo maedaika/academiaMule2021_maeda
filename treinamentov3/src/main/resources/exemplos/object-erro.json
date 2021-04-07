@@ -1,0 +1,4004 @@
+{
+  "DEX_SSD_SalesData__c": [
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "invalid record type",
+        "fields": [
+          
+        ],
+        "statusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "Message": "invalid record type",
+      "Exception": {
+        "localizedMessage": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY",
+        "cause": null,
+        "message": "invalid record type INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+      },
+      "StatusCode": "INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY"
+    }
+  ]
+}

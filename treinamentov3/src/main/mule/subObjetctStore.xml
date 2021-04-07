@@ -34,6 +34,8 @@ payload map
         } 
 ]]></ee:set-payload>
 			</ee:message>
+			<ee:variables >
+			</ee:variables>
 		</ee:transform>
 		<ee:transform doc:name="Transform Message" doc:id="83103d28-089b-4da4-b62f-1fe8ff99361f" >
 			<ee:message >
@@ -608,6 +610,30 @@ payload map ({
 			</ee:message>
 		</ee:transform>
 	</flow>
+	<flow name="subObjetctStoreFlow3" doc:id="28168f23-c002-422c-a2e1-852a62fdc2f7" >
+		<ee:transform doc:name="Transform Message" doc:id="0bb91edc-f3ba-4e8a-8481-e66973df511a" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+items: payload.books map (item, index) -> {
+      book: item mapObject (value, key) -> {
+      (upper(key)): value
+      }
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<ee:transform doc:name="Transform Message" doc:id="4546d964-fa37-44b2-86fc-17f93f9dccef" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+["jose", "pedro", "mateo"] 
+
+map (value, index) -> { (index) : value}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
 	<flow name="subObjetctStoreFlow1" doc:id="5280e4b2-ebc3-4a91-af37-95cbe2a4af80" >
 		<ee:transform doc:name="Transform Message" doc:id="8be71720-2231-48bb-bcff-d7dc0e97cec6" >
 			<ee:message >
@@ -664,7 +690,6 @@ items: payload.books map (item, index) -> {
 		<ee:transform doc:name="Transform Message" doc:id="4a858ef7-f3ba-4fba-a6f0-2b73437c6413" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-
 output application/json
 var payload =
 [

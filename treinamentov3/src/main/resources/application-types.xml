@@ -2,7 +2,7 @@
 <types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
   <types:catalog>
     <types:type name="imput" format="json">
-      <types:shape format="weave" example="exemplos/outup-json.json"><![CDATA[%dw 2.0
+      <types:shape format="weave" example="exemplos/exempos-lista.json"><![CDATA[%dw 2.0
 
 type imput = {|
   books: Array<{|    "-category": String,     title: String,     author: String,     year: String,     price: String,     "-cover": String  |}>
@@ -33,6 +33,15 @@ type imput = {|
           <types:payload type="imput"/>
         </types:message>
       </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#0bb91edc-f3ba-4e8a-8481-e66973df511a">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="imput"/>
+        </types:message>
+      </types:input-event>
     </types:processor-declaration>
   </types:enrichment>
 </types:mule>

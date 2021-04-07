@@ -1,0 +1,110 @@
+[
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "67651409-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "mariana.e.vieira@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PpXnAAK",
+    "Id": "a3q1x0000000onGAAQ",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006102"
+  },
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "1010404-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "mariana.e.vieira@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PpXnAAK",
+    "Id": "a3q1x0000000onHAAQ",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006103"
+  },
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "1902203-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "mariana.e.vieira@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PpXnAAK",
+    "Id": "a3q1x0000000onIAAQ",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006104"
+  },
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "4000400375667-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "jackson.g.silva@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PrxhAAC",
+    "Id": "a3q1x0000000oRAAAY",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006060"
+  },
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "4000492074264-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "mariana.e.vieira@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PpXnAAK",
+    "Id": "a3q1x0000000olpAAA",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006083"
+  },
+  {
+    "DEX_Product__r": {
+      "TEL_Sales_ORG__c": "1300",
+      "Id": null,
+      "SAP_ID__c": "8722700587156-1300",
+      "type": "Product2"
+    },
+    "CreatedBy": {
+      "Email": "mariana.e.vieira@accenture.com",
+      "Id": null,
+      "type": "User"
+    },
+    "TEL_Campaign__c": "7011x000000PpXnAAK",
+    "Id": "a3q1x0000000olqAAA",
+    "type": "TEL_Campaign_Products__c",
+    "CurrencyIsoCode": "EUR",
+    "Name": "CP-00006084"
+  }
+]
