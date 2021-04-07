@@ -1,10 +1,819 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:os="http://www.mulesoft.org/schema/mule/os"
-	xmlns="http://www.mulesoft.org/schema/mule/core"
-	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:os="http://www.mulesoft.org/schema/mule/os"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd
-http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="subDataweave-get-err" doc:id="476d6cb8-d583-460c-a5fd-a0fc1aaf4126" >
+		<ee:transform doc:name="Transform Message" doc:id="bdddecec-2d93-4147-8c7b-5132a5bb6a45" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+var payload = [
+  {
+    "nome" : "Juliano",
+    "genero" : "",
+    "idade" : 41,
+    "sobrenome": "Silva"
+  },
+  {
+  "nome" : "Alessandro",
+    "genero" : "Masculino",
+    "idade" : 41,
+    "sobrenome": "Maeda"
+  }
+]
+---
+payload map
+		{
+          nome: $.nome,
+          genero: $.genero,
+          (sobrenome: $.sobrenome) if($.sobrenome == "")
+        } 
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<ee:transform doc:name="Transform Message" doc:id="83103d28-089b-4da4-b62f-1fe8ff99361f" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+var payload =
+{
+	
+  "DEX_SSD_SalesData__c": [
+    {
+      "Id": "a511x000000AzbKAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbLAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbMAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbNAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbhAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbiAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbpAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbqAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbrAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbsAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzcoAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzcpAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzcqAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzdZAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzdaAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzeRAAS",
+      "Create": true,
+      "Success": true
+    }
+  ]
+}
+---
+
+//(payload[0])
+    payload.DEX_SSD_SalesData__c map ((item,index)->{
+	//(payload[0]) map ((item,index)->{
+	//IntegrationPayload__c:	(vars.vPayloadIdSSDForEach[index]).ID, // Sem permicao em preprod
+	Exception_Message__c:	 item.Message, // mensagem de erro
+	Name:					"Datalake Inbound Error",
+	DebugLevel__c:			"Error",
+	Application_Name__c:	"AFH",
+	//ReferenceInfo__c:		vars.vSSDNameFile, 
+	
+}) //filter $.Exception_Message__c != null
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<ee:transform doc:name="Transform Message" doc:id="ade793da-96fa-469e-93fe-e917daeb73fe" >
+			<ee:message >
+			</ee:message>
+			<ee:variables >
+				<ee:set-variable variableName="d" ><![CDATA[%dw 2.0
+var myInputExample = {
+
+      "books" : 
+      [
+      	{
+        "category": "cooking",
+        "title": "Everyday Italian",
+        "author": "Giada De Laurentiis",
+        "year": "2005",
+        "price": "30.00"
+      },
+      "book" :{
+        "category": "children",
+        "title": "Harry Potter",
+        "author": "J K. Rowling",
+        "year": "2005",
+        "price": "29.99"
+      },
+      "book" :{
+        "category": "web",
+        "title": "Learning XML",
+        "author": "Erik T. Ray",
+        "year": "2003",
+        "price": "39.95"
+      },
+      "magazine" :{
+        "category": "web",
+        "title": "Wired Magazine",
+        "edition": "03-2017",
+        "price": "15.95"
+      },
+        "magazine" :{
+        "category": "business",
+        "title": "Time Magazine",
+        "edition": "04-2017",
+        "price": "17.95"
+      }
+ ]  }
+
+
+---
+myInputExample.books map (item, index) -> {
+//      book: item mapObject (value, key) -> {
+//      (upper(key)): value
+//      }
+b: item.category
+
+}]]></ee:set-variable>
+				<ee:set-variable variableName="dsdsd" ><![CDATA[%dw 2.0
+var myVar = [
+  { bookId: 101,
+    title: "world history",
+    price: "19.99"
+  },
+  {
+    bookId: 202,
+    title: 'the great outdoors',
+    price: "15.99"
+  }
+]
+var myVar2 = [
+  {
+    bookId: 101,
+    author: "john doe"
+  },
+  {
+    bookId: 202,
+    author: "jane doe"
+  }
+]
+output application/json
+---
+myVar map (item, index) -> using (id = item.bookId) {
+	"id" : id,
+	"topic" : item.title,
+	"cost" : item.price as Number,
+	(myVar2 filter ($.*bookId contains id) map (item) -> {
+		author : item.author
+	})
+}]]></ee:set-variable>
+				<ee:set-variable variableName="csv" ><![CDATA[%dw 2.0
+output application/csv
+var teste = [
+	{
+  "age": 10 ,
+  "name": "Claire"
+}, 
+{
+  "age": 56,
+  "name": "Max"
+}, {
+  "age": 89,
+  "name": "John"
+  
+}
+
+] 
+---
+{
+	tes: teste.age == 56
+}
+
+//teste filter $.age <= 10 map ((item, index) -> {
+//    w1: item.age,
+//    w2: item.name
+//}) 
+
+
+//myInputExample.books map (item, index) -> {
+////      book: item mapObject (value, key) -> {
+////      (upper(key)): value
+////      }
+//b: item.category]]></ee:set-variable>
+			</ee:variables>
+		</ee:transform>
+		<ee:transform doc:name="Copy_of_Transform Message" doc:id="c79a252c-1454-4a85-b3b4-98cd5da29706" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+var payload =
+{
+	
+  "DEX_SSD_SalesData__c": [
+    {
+      "Id": "a511x000000AzbKAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbLAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbMAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbNAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbhAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbiAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbpAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 2c30ff05-1045-495c-972f-b9948dc6822d DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbqAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzbrAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzbsAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzcoAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzcpAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 9cf4980d-8b50-4df8-8f0c-7d8c7a71c58c DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzcqAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzdZAAS",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": null,
+      "Create": false,
+      "Success": false,
+      "Errors": {
+        "duplicateResult": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+        "fields": [
+          "DEX_SSD_Datalake_ID__c"
+        ],
+        "statusCode": "DUPLICATE_VALUE"
+      },
+      "Message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4",
+      "Exception": {
+        "localizedMessage": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE",
+        "cause": null,
+        "message": "Duplicate external id specified: 572f6221-fb51-4186-9820-2b58643748e4 DUPLICATE_VALUE"
+      },
+      "StatusCode": "DUPLICATE_VALUE"
+    },
+    {
+      "Id": "a511x000000AzdaAAC",
+      "Create": true,
+      "Success": true
+    },
+    {
+      "Id": "a511x000000AzeRAAS",
+      "Create": true,
+      "Success": true
+    }
+  ]
+}
+---
+
+//(payload[0])
+payload map ({
+	//IntegrationPayload__c:	(vars.vPayloadIdSSDForEach[index]).ID, // Sem permicao em preprod
+	//Exception_Message__c:	 item.Message, // mensagem de erro
+	tes: 					$."message",
+	Name:					"Datalake Inbound Error",
+	DebugLevel__c:			"Error",
+	Application_Name__c:	"AFH",
+	//ReferenceInfo__c:		vars.vSSDNameFile, 
+	
+}) //filter $.Exception_Message__c != null
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="subObjetctStoreFlow1" doc:id="5280e4b2-ebc3-4a91-af37-95cbe2a4af80" >
+		<ee:transform doc:name="Transform Message" doc:id="8be71720-2231-48bb-bcff-d7dc0e97cec6" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/java
+var payload = {
+    "books": [
+      {
+        "-category": "cooking",
+        "title":"Everyday Italian",
+        "author": "Giada De Laurentiis",
+        "year": "2005",
+        "price": "30.00"
+      },
+      {
+        "-category": "children",
+        "title": "Harry Potter",
+        "author": "J K. Rowling",
+        "year": "2005",
+        "price": "29.99"
+      },
+      {
+        "-category": "web",
+        "title":  "XQuery Kick Start",
+        "author": [
+          "James McGovern",
+          "Per Bothner",
+          "Kurt Cagle",
+          "James Linn",
+          "Vaidyanathan Nagarajan"
+        ],
+        "year": "2003",
+        "price": "49.99"
+      },
+      {
+        "-category": "web",
+        "-cover": "paperback",
+        "title": "Learning XML",
+        "author": "Erik T. Ray",
+        "year": "2003",
+        "price": "39.95"
+      }
+    ]
+}
+---
+
+items: payload.books map (item, index) -> {
+      book: item mapObject (value, key) -> {
+      (upper(key)): value
+      }
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<ee:transform doc:name="Transform Message" doc:id="4a858ef7-f3ba-4fba-a6f0-2b73437c6413" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+
+output application/json
+var payload =
+[
+      {
+        "-category": "cooking",
+        "title":"Everyday Italian",
+        "author": "Giada De Laurentiis",
+        "year": "2005",
+        "price": "30.00"
+      },
+      {
+        "-category": "children",
+        "title": "Harry Potter",
+        "author": "J K. Rowling",
+        "year": "2005",
+        "price": "29.99"
+      },
+      {
+        "-category": "web",
+        "title":  "XQuery Kick Start",
+        "author": "James McGovern",
+        "year": "2003",
+        "price": "49.99"
+      },
+      {
+        "-category": "web",
+        "-cover": "paperback",
+        "title": "Learning XML",
+        "author": "Erik T. Ray",
+        "year": "2003",
+        "price": "39.95"
+      }
+ ]
+---
+{
+	payload: spayload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="subObjetctStoreFlow2" doc:id="1c9ffba2-61e1-46f3-b0a9-b92180872792" >
+		<ee:transform doc:name="Transform Message" doc:id="ceeef767-afc8-427c-98ca-937f519aeafa" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+var payload = 
+[
+	{
+		
+	"Id": '0121x00000285EbAAI',
+	"Id1": '',
+	"DeveloperName": 'DEX_Datalake_SSD'
+	
+}
+]
+---
+
+	payload.Id != ""
+	
+    //(DEX_OrderDate__c:				item."Order Date" as Date) if (item."Order Date" != ""),
+	//vars.vAccountsKeys.Id == null
+	////if (vars.vAccountsKeys.Id == "")
+	//DEX_AccountMRDR__c: item."Account Id"
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="subObjetctStoreFlow" doc:id="79e72358-4a98-44d1-ba56-dfa0c50e7d9b" >
+		<ee:transform doc:name="Transform Message" doc:id="c90f307c-fb76-46fe-88a9-2a33438c0e08" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+fun fCodCountryNum (pParams) = 
+	(pParams match {
+	    case "UK" -> '3100'
+	    case "IE" -> '1160'
+	    case "ES" -> '1020'
+	    case "NL" -> '5100'
+	    case "FR" -> '1410'
+	    case "BE" -> '1030'
+	    case "AT" -> '1600'
+	    case "DE" -> '1300'
+	    case "CH" -> '1611'
+	    case "FI" -> '5220'
+	    case "DK" -> '5210'
+	    case "SE" -> '5200'
+	    case "IT" -> '1700'
+	    case "GR" -> '1900'
+	    else -> 'ANOTHER_COD'
+	})
+var payload = [
+	{
+		"Country Cod": "AT"
+	},
+	{
+		"Country Cod": "IE"
+	},
+	{
+		"Country Cod": "CH"
+	},
+	{
+		"Country Cod": "GB"
+	},
+	{
+		"Country Cod": "DE"
+	}
+]
+var recordType = 
+[
+{
+"Id": "0011x000016dWerAAE",
+"Sales_ORG__c": "1600"
+},
+{
+"Id": "0011x000016eUq4AAE",
+"Sales_ORG__c": "1160"
+},
+{
+"Id": "0011x000016hAHhAAM",
+"Sales_ORG__c": "1300"
+},
+{
+"Id": "0011x000016fhsEAAQ",
+"Sales_ORG__c": "3100"
+},
+{
+"Id": "0011x000016hCjKAAU",
+"Sales_ORG__c": "1611"
+}
+]
+---
+payload map (item,index) -> {
+
+
+recorTypeId: (recordType filter $.Sales_ORG__c == fCodCountryNum(item."Country Cod")).Id[0], 
+//teste: fCodCountryNum(item."Country Cod") 
+ // (vars.vRecordTypeCab filter $.DeveloperName == "DEX_Cabinets_Asset" )[0].Id 
+}
+
+
+
+
+
+
+
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
 	<sub-flow name="subObjetctStoreSub_Flow" doc:id="c1e0eb70-bfbb-4005-b652-b1a9a9541d0b" >
 		<os:retrieve-all doc:name="Retrieve all" doc:id="c6dd58a9-31ff-4e76-a3ea-8a98920aa358" objectStore="Object_store"/>
 		<logger level="INFO" doc:name="Logger" doc:id="eb2573ab-43a6-4f1c-aa62-deb033c25a8c" message="#[payload]"/>

@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
   <types:catalog>
-    <types:type name="imput" format="xml">
-      <types:example format="xml" element="IDOC" location="exemplos/exempo-input-xml.xml"/>
+    <types:type name="imput" format="json">
+      <types:shape format="weave" example="exemplos/outup-json.json"><![CDATA[%dw 2.0
+
+type imput = {|
+  books: Array<{|    "-category": String,     title: String,     author: String,     year: String,     price: String,     "-cover": String  |}>
+|} {"example": "{\\\"books\\\":[{\\\"-category\\\":\\\"cooking\\\",\\\"title\\\":\\\"Everyday Italian\\\",\\\"author\\\":\\\"Giada De Laurentiis\\\",\\\"year\\\":\\\"2005\\\",\\\"price\\\":\\\"30.00\\\"},{\\\"-category\\\":\\\"children\\\",\\\"title\\\":\\\"Harry Potter\\\",\\\"author\\\":\\\"J K. Rowling\\\",\\\"year\\\":\\\"2005\\\",\\\"price\\\":\\\"29.99\\\"},{\\\"-category\\\":\\\"web\\\",\\\"title\\\":\\\"XQuery Kick Start\\\",\\\"author\\\":[\\\"James McGovern\\\",\\\"Per Bothner\\\",\\\"Kurt Cagle\\\",\\\"James Linn\\\",\\\"Vaidyanathan Nagarajan\\\"],\\\"year\\\":\\\"2003\\\",\\\"price\\\":\\\"49.99\\\"},{\\\"-category\\\":\\\"web\\\",\\\"-cover\\\":\\\"paperback\\\",\\\"title\\\":\\\"Learning XML\\\",\\\"author\\\":\\\"Erik T. Ray\\\",\\\"year\\\":\\\"2003\\\",\\\"price\\\":\\\"39.95\\\"}]}"}
+
+]]></types:shape>
     </types:type>
   </types:catalog>
   <types:enrichment select="#34c53e4e-1913-4dd3-b574-060ea9d95aa0">
@@ -12,6 +18,21 @@
           <types:payload type="imput"/>
         </types:message>
       </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#ade793da-96fa-469e-93fe-e917daeb73fe"/>
+  <types:enrichment select="#bdddecec-2d93-4147-8c7b-5132a5bb6a45">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="imput"/>
+        </types:message>
+      </types:input-event>
+      <types:output-event>
+        <types:message>
+          <types:payload type="imput"/>
+        </types:message>
+      </types:output-event>
     </types:processor-declaration>
   </types:enrichment>
 </types:mule>
